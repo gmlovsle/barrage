@@ -106,7 +106,6 @@
         //在www.wildog.com 注册一个账号，创建一个应用，自动生成一个url,替换下边url即可
         var ref = new Wilddog("https://danwu.wilddogio.com/messages");
         var arr = [];
-        //把数据提交到野狗云
         $(".s_sub").click(function() {
             var text = $(".s_txt").val();
             ref.child('message').push(text);
